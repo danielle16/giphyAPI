@@ -6,7 +6,7 @@ $(document).ready(function () {
         $("button").on("click", function () {
             var animal = $(this).attr("data-animal");
 
-            var gihpyApiUrl = "http://api.giphy.com/v1/gifs/search?q=" + animal +
+            var gihpyApiUrl = "https://api.giphy.com/v1/gifs/search?q=" + animal +
                 "&api_key=T16BixY68ApEFJwpLt9pj0ic2xZAnGm3&limit=20";  
 
             $.ajax({
